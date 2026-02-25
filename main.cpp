@@ -13,7 +13,7 @@ int main()
 	cout << num << " ";
     cout << endl;
 
-    sort(v1.begin(), v1.end());
+    sort(v1.begin(), v1.end(), greater<>());
 
     cout << "Sorted Vector: ";
     for (auto num: v1) 
